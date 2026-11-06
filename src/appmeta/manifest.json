@@ -1,0 +1,9 @@
+{
+  "format_version": 1,
+  "id": "app.busy.wallpapers",
+  "name": "Wallpapers",
+  "version": "0.1.0",
+  "api_version": "27.14.0",
+  "description": "Living pixel wallpapers with a clock. Turn the wheel to switch, press Start to play.",
+  "author": "BUSY"
+}

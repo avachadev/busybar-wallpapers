@@ -1,0 +1,28 @@
+{
+  "name": "wallpapers",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Living pixel wallpapers with a clock. Turn the wheel to switch, press Start to play.",
+  "author": "BUSY",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc",
+    "build": "busy-cli build",
+    "app:install": "busy-cli app install",
+    "app:uninstall": "busy-cli app uninstall",
+    "app:run": "busy-cli app run",
+    "app:stop": "busy-cli app stop",
+    "postinstall": "node tools/patch-busy-cli.mjs"
+  },
+  "engines": {
+    "node": ">=24 <26"
+  },
+  "devDependencies": {
+    "@busy-app/cli": "^0.6.0",
+    "typescript": "~6.0.3",
+    "vite": "8.1.4"
+  },
+  "dependencies": {
+    "@busy-app/busy-lib": "^0.21.1"
+  }
+}
